@@ -83,14 +83,14 @@ int main() {
         	
 	HumanFilter human_filter;
 
-	std::cout<<std::endl<<" -->Empower human_filer to filter by cricket playing country <--\n";
+	std::cout<<std::endl<<" -->Empower human_filter to filter by cricket playing country <--\n";
 	GameFilterCriteria game(Game::Cricket);
 	auto cricket_playing_country = human_filter.filter(human, game);
 	for (auto & item : cricket_playing_country) {
 		std::cout<<"\t" <<item->name << " is cricket playing country.\n";
 	}
 	
-	std::cout<<std::endl<<" -->Empower human_filer to filter by colorimentry criteria <--\n";
+	std::cout<<std::endl<<" -->Empower human_filter to filter by colorimentry criteria <--\n";
 	
 	ColorimetryCriteria color(Color::White);
 	auto white_color_human = human_filter.filter(human, color);
@@ -98,7 +98,7 @@ int main() {
 		std::cout<<"\t"<< item->name << " are white color human.\n";
 	}
 
-	std::cout<<std::endl<<" -->Empower human_filer to filter by cricket plyaing country and colorimentry criteria <--\n";
+	std::cout<<std::endl<<" -->Empower human_filter to filter by cricket plyaing country and colorimentry criteria <--\n";
 
 	CombinedCriteria<Human> cricket_and_white{ game , color };
 	auto cricekt_white_human = human_filter.filter(human, cricket_and_white);
