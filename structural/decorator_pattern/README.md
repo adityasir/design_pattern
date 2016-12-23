@@ -21,5 +21,5 @@ In this example, I have tried to empower HumanFilter object to perform different
 FilterCriteria object parameter passed to it. 
 
 This solution also fits with Open/Close principles of software development. 
-Once the filter class is written, I.e HumanFilter it do not required to change or even modified only new 
+Once the filter class is written, i.e HumanFilter it do not required to change or even modified, only new 
 criteria need to be added for each new search criteria. 
