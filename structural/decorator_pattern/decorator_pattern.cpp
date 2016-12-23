@@ -83,27 +83,27 @@ int main() {
         	
 	HumanFilter human_filter;
 
-	std::cout<<std::endl<<"--------------------Filter by game-------------------------\n";
+	std::cout<<std::endl<<" -->Empower human_filer to filter by cricket playing country <--\n";
 	GameFilterCriteria game(Game::Cricket);
 	auto cricket_playing_country = human_filter.filter(human, game);
 	for (auto & item : cricket_playing_country) {
-		std::cout<< item->name << " is cricket playing country. " <<std::endl;
+		std::cout<<"\t" <<item->name << " is cricket playing country.\n";
 	}
 	
-	std::cout<<std::endl<<"--------------------Filter by color-------------------------\n";
+	std::cout<<std::endl<<" -->Empower human_filer to filter by colorimentry criteria <--\n";
 	
 	ColorimetryCriteria color(Color::White);
 	auto white_color_human = human_filter.filter(human, color);
 	for (auto & item : white_color_human) {
-		std::cout<< item->name << " are white color human." <<std::endl;
+		std::cout<<"\t"<< item->name << " are white color human.\n";
 	}
 
-	std::cout<<std::endl<<"--------------------Filter by Game and Color-------------------------\n";
+	std::cout<<std::endl<<" -->Empower human_filer to filter by cricket plyaing country and colorimentry criteria <--\n";
 
 	CombinedCriteria<Human> cricket_and_white{ game , color };
 	auto cricekt_white_human = human_filter.filter(human, cricket_and_white);
 	for (auto & value : cricekt_white_human) {
-		std::cout<< value->name << " are white color cricket playing human." <<std::endl;
+		std::cout<<"\t"<< value->name << " are white color cricket playing human.\n";
 	}
 	return 1;
 }

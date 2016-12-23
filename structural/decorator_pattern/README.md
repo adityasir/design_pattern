@@ -29,15 +29,14 @@ g++ -std=c++11 decorator_pattern.cpp
 
 
 output:
+ -->Empower human_filer to filter by cricket playing country <--
+	Asian is cricket playing country.
+	Australia is cricket playing country.
 
---------------------Filter by game-------------------------
-Asian is cricket playing country. 
-Australia is cricket playing country. 
+ -->Empower human_filer to filter by colorimentry criteria <--
+	European are white color human.
+	Australia are white color human.
 
---------------------Filter by color-------------------------
-European are white color human.
-Australia are white color human.
-
---------------------Filter by Game and Color-------------------------
-Australia are white color cricket playing human.
+ -->Empower human_filer to filter by cricket plyaing country and colorimentry criteria <--
+	Australia are white color cricket playing human.
 
