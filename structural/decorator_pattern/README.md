@@ -30,15 +30,6 @@ g++ -std=c++11 decorator_pattern.cpp
 
 output:
 
---------------------Filter by game-------------------------
-	Asian is cricket playing country. 
-	Australia is cricket playing country. 
-
---------------------Filter by color-------------------------
-	European are white color human. 
-	Australia are white color human.
-
---------------------Filter by Game and Color----------------
-	Australia are white color cricket playing human.
+--------------------Filter by game-------------------------                                                                                                             Asian is cricket playing country.                                                                                                                           Australia is cricket playing country.                                                                                                           --------------------Filter by color-------------------------                                                                                                            European are white color human.                                                                                                                             Australia are white color human.                                                                                                                --------------------Filter by Game and Color----------------                                                                                                           Australia are white color cricket playing human.                                                                                                            
 
 
