@@ -35,9 +35,10 @@ Asian is cricket playing country.
 Australia is cricket playing country. 
 
 --------------------Filter by color-------------------------
-European are white color human.
+European are white color human. 
 Australia are white color human.
 
 --------------------Filter by Game and Color----------------
 Australia are white color cricket playing human.
+
 
