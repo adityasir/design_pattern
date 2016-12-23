@@ -100,8 +100,8 @@ int main() {
 
 	std::cout<<std::endl<<"--------------------Filter by Game and Color-------------------------\n";
 
-	CombinedCriteria<Human> green_and_big{ game , color };
-	auto cricekt_white_human = human_filter.filter(human, green_and_big);
+	CombinedCriteria<Human> cricket_and_white{ game , color };
+	auto cricekt_white_human = human_filter.filter(human, cricket_and_white);
 	for (auto & value : cricekt_white_human) {
 		std::cout<< value->name << " are white color cricket playing human." <<std::endl;
 	}
