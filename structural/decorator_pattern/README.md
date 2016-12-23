@@ -23,3 +23,21 @@ FilterCriteria object parameter passed to it.
 This solution also fits with Open/Close principles of software development. 
 Once the filter class is written, i.e HumanFilter it do not required to change or even modified, only new 
 criteria need to be added for each new search criteria. 
+
+Compile :
+g++ -std=c++11 decorator_pattern.cpp
+
+
+output :
+
+--------------------Filter by game-------------------------
+Asian is cricket playing country. 
+Australia is cricket playing country. 
+
+--------------------Filter by color-------------------------
+European are white color human.
+Australia are white color human.
+
+--------------------Filter by Game and Color----------------
+Australia are white color cricket playing human.
+

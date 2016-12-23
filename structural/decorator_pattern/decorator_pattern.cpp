@@ -3,14 +3,14 @@
 
 enum class Color { White, Wheatish, Black };
 enum class Game { Cricket, Soccer, BasketBall};
-enum class Hight { Small, Average, High };
+enum class Height { Small, Average, High };
 
 class Human {
 	public:
 	std::string name;
 	Color color;
 	Game game;
-	Hight hight ;
+	Height height ;
 };
 
 
@@ -74,10 +74,10 @@ template <typename T> class CombinedCriteria :public FilterCriteria<T>
 
 int main() {
 
-	Human asian{"Asian", Color::Wheatish, Game::Cricket, Hight::Average};
-	Human european {"European", Color::White, Game::Soccer, Hight::High};
-	Human african{ "African", Color::Black, Game::BasketBall, Hight::High};
-	Human australian{ "Australia", Color::White, Game::Cricket, Hight::High};
+	Human asian{"Asian", Color::Wheatish, Game::Cricket, Height::Average};
+	Human european {"European", Color::White, Game::Soccer, Height::High};
+	Human african{ "African", Color::Black, Game::BasketBall, Height::High};
+	Human australian{ "Australia", Color::White, Game::Cricket, Height::High};
 
 	std::vector<Human*> human {&asian, &european, &african, &australian};
         	
