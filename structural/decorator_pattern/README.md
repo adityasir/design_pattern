@@ -12,8 +12,6 @@ From above definition it is clear that decorator design patter provides a soluti
  object to perform multifarious activity DYNAMICALLY.
 
 Sometime we don't want any performance penalty introduced by run time dynamic polymorphism.                                 
-And for me it make sense why should baby will have further pain once she had born, pain only should be at labor
- room means at compile time.
 
 Compile time means, static polymorphism, using template. 
 
