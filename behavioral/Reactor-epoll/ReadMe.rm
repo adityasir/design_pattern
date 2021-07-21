@@ -1,0 +1,2 @@
+what is epoll : 
+epoll is a Linux kernel system call for a scalable I/O event notification mechanism
